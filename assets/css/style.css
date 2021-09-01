@@ -174,13 +174,25 @@ input{
         height: 100vh;
        
       }
+      h2{
+          font-size: 1.8rem;
+      }
+      p{
+          font-size: 0.9rem;
+      }
       .container-img{
           display: none;
       }
-      input{
+      input, .line-across, .login-btn{
           width: 70vw;
       }
-      .login-btn{
-        width: 70vw;
-      }
+      
+}
+@media (max-width: 380px){
+    h2{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
 }
