@@ -97,7 +97,7 @@ section {
     margin-bottom: 2.5rem;
 }
 .google-signin:hover{
-    border: 0.11rem solid #d6d3e0;
+    border: 0.11rem solid #9895a1;
 }
 .google-signin img{
     max-width: 70%;
@@ -144,10 +144,19 @@ input{
     cursor: pointer;
     border: 0.1rem solid #E1DFE9;
 }
+input:focus {
+    border: 0.11rem solid #9895a1;
+    outline: none;
+  }
+
 .input-wrapper{
     margin-top: 1rem;
 }
-
+form span{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgb(241, 74, 74);
+}
 .login-btn{
     position: relative;
     margin-top: 2.5rem;
